@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+body{
+    text-align: center;
+    height: 100%;
+}
+.container{
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.main-header{
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+    display: table;
+    margin-top: 50px;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #2B2B2B;
+}
+header ul{
+    list-style-type: none;
+    padding: 0px;
+}
+header ul:first-child{
+    float: left;
+}
+header ul:last-child{
+    float: right;
+}
+header ul a{
+    color: white;
+    text-decoration: none;
+    padding: 17px;
+}
+header li{
+    float: left;
+}
+.main-header img {
+    width: 13%;
+}
+.about h1{
+    font-size: 1.5rem;
+}
+.about p{
+    font-size: 0.8rem;
+}
+.function{
+    background-color: #D3D3D3;
+    flex-grow: 1;
+}
+.function-images{
+    width: 50%;
+    margin: auto;
+}
+.function-image{
+    width: 20%;
+    float: left;
+    margin: 2.5%;
+}
+.function-image img{
+    width: 50%;
+}
+footer{
+    height: 70px;
+    background-color: #283A4B;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+footer p:last-child{
+    font-size: 0.8rem;
+    margin: 0px;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
